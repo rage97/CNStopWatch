@@ -1,0 +1,34 @@
+## JavaScript Stopwatch App
+
+This is a simple JavaScript-based stopwatch application that allows you to track elapsed time, record splits, and reset the stopwatch. The app is built using DOM manipulation and event handling techniques.
+
+### Features
+
+- Start/Stop: Begin or pause the stopwatch to measure elapsed time accurately.
+- Split: Record split times while the stopwatch is running and view them in a split list.
+- Reset: Reset the stopwatch and clear all recorded splits.
+
+### How It Works
+
+The application uses JavaScript to interact with the Document Object Model (DOM) and update the display in real time. It employs event listeners to detect button clicks and perform corresponding actions:
+
+- `startStopButton`: Toggles between starting and stopping the stopwatch while accumulating elapsed time.
+- `splitButton`: Records split times while the stopwatch is running and displays them in a list.
+- `resetButton`: Resets the stopwatch to its initial state and clears all recorded splits.
+
+The time display is updated every 10 milliseconds using an interval mechanism. The recorded splits are displayed in a list below the main display.
+
+### Usage
+
+To use the stopwatch:
+
+1. Click the "Start" button to begin tracking elapsed time.
+2. While the stopwatch is running, you can record split times using the "Split" button.
+3. Click the "Stop" button to pause the stopwatch and see the final elapsed time.
+4. You can reset the stopwatch using the "Reset" button, which will also clear any recorded splits.
+
+Feel free to integrate this stopwatch component into your web projects or explore and modify its code to suit your needs.
+
+### Author
+
+[Mohammed Samiuddin Shams]
